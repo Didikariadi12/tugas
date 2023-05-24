@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}
+
+/* untuk background */
+.form-container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+   /* background: #eee; */
+   background-image: url(gambar/bg1.png);
+}
+/* register */
+.form-container form{
+   padding:20px;
+   border-radius: 5px;
+   box-shadow: 0 5px 10px rgba(0,0,0,.1);
+   background: #fff;
+   text-align: center;
+   width: 500px;
+}
+
+.form-container form h3{
+   font-size: 30px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   color:#333;
+}
+
+.form-container form input,
+.form-container form select{
+   width: 100%;
+   padding:10px 15px;
+   font-size: 17px;
+   margin:8px 0;
+   background: #eee;
+   border-radius: 5px;
+}
+
+.form-container form select option{
+   background: #fff;
+}
+
+.form-container form .form-btn{
+   background: #0466c8;
+   color:#fff;
+   text-transform: capitalize;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+   background: #d1495b;
+   color:#fff;
+}
+
+.form-container form p{
+   margin-top: 10px;
+   font-size: 20px;
+   color:#333;
+}
+
+.form-container form>p>a{
+   color:#0466c8;
+}
+/* register */
+
+.form-container form>p>a:hover{
+   color:#d1495b;
+}
+/* reggister untuk eror */
+/* .form-container form .error-msg{
+   margin:10px 0;
+   display: block;
+   background: crimson;
+   color:crimson;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+} */
+.welcome>h1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   background: #eee;
+}
+.logout{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 30px;
+   color: red;
+   font-style:normal;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+
+
+
